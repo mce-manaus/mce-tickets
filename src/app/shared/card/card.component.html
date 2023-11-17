@@ -1,0 +1,13 @@
+<div class="card">
+  <div 
+  [style.backgroundColor]="data.headerColor"
+   class="card-header">
+    <span>{{data.title}}</span>
+    <span
+    [class]="data.icon"></span>
+  </div>
+  <div class="card-body">
+    <span>{{data.value | currency: 'BRL': 'symbol'}}</span>
+  </div>
+</div>
+
