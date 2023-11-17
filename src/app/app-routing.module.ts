@@ -3,7 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'ticket',
+    path: '',
+    redirectTo: 'tickets',
+    pathMatch: 'full'
+  },
+  {
+    path: 'tickets',
     loadChildren: () => import('./page/ticket/ticket.module').then(m=>m.TicketModule)
   }
 ];

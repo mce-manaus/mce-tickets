@@ -4,11 +4,11 @@
   height: 18.438rem;
   padding: 2.5rem 0 7.5rem;
   flex: 1;
+  box-sizing: border-box;
 
 }
 
 .header-content{
-  width: 100%;
   max-width: 1120px;
   display: flex;
   padding: 0 1.5rem;
@@ -51,16 +51,11 @@
   height: 2.5rem;
 }
 
-// cards
-.cards-container {
+.body-content{
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: flex;
-  gap: 2rem;
-  margin-top: -5rem;
-  overflow-x: auto;
-  &::-webkit-scrollbar {
-    display: none; /* Para Webkit (Chrome, Safari) */
-  }
+  flex-direction: column;
+  gap: 1.875rem;
 }

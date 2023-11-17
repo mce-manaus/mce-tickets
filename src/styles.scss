@@ -13,6 +13,13 @@ body{
 a {
   text-decoration: none;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
 
 .ticket-svg-icon {
   background-image: url('./assets/icons/icon _ticket_.svg');
@@ -33,6 +40,29 @@ a {
 
 .chart-down-icon {
   background-image: url('./assets/icons/ChartLineDown.svg');
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chart-up-icon {
+  background-image: url('./assets/icons/ChartLineUp.svg');
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chart-coins-icon {
+  background-image: url('./assets/icons/Coins.svg');
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.search-icon {
+  background-image: url('./assets/icons/Search.svg');
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;

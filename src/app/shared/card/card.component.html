@@ -1,16 +1,13 @@
 <div class="card">
-  <div class="card-header">
-    <span>{{title}}</span>
-    <span class="chart-down-icon"></span>
+  <div 
+  [style.backgroundColor]="data.headerColor"
+   class="card-header">
+    <span>{{data.title}}</span>
+    <span
+    [class]="data.icon"></span>
   </div>
   <div class="card-body">
-    <span>{{value | currency: 'BRL': 'symbol'}}</span>
+    <span>{{data.value | currency: 'BRL': 'symbol'}}</span>
   </div>
 </div>
 
-
-
-<!-- <ng-template [ngTemplateOutlet]="outlet" [ngOutletContext]="context"></ng-template> -->
-<ng-template [ngIf]="true" >
-  asdasdasd
-</ng-template>

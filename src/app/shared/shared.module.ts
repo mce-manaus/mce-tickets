@@ -2,10 +2,12 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 import { CommonModule, registerLocaleData } from '@angular/common';
 import ptBr from '@angular/common/locales/pt';
 import { CardComponent } from './card/card.component';
+import { SearchComponent } from './search/search.component';
 registerLocaleData(ptBr);
 
 const components = [
-  CardComponent
+  CardComponent,
+  SearchComponent
 ]
 @NgModule({
   declarations: components,
